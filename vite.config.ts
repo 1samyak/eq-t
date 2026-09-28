@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  base: '/eq-t/',
   plugins: [react(), tailwindcss()],
   server: { port: 5173 },
   build: { outDir: 'dist' },
